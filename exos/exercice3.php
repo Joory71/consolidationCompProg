@@ -3,8 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Exercice 3 - Création d'un programme simple calculant un nombre de ligne en fonction du nombre d'images">
     <link rel="stylesheet" href="../style/main.css">
     <title>Exercice 3 - Programme du calcul de ligne en fonction du nombre d'images</title>

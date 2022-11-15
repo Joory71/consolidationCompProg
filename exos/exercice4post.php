@@ -3,8 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Résultats des valeurs fournies dans le formulaire de l'exercice 4">
     <link rel="stylesheet" href="../style/main.css">
     <title>Resultats formulaire exercice 4</title>
@@ -15,7 +13,7 @@
     include '../modules/menu.php';
     ?>
     <main>
-        <h1>Exercice 4 - Résultats des calculs de l'exercice 4</h1>
+        <h1>Résultats des calculs de l'exercice 4</h1>
         <?php
         if (!empty($_POST['depot1']) && !empty($_POST['depot2']) && !empty($_POST['depot3']) && !empty($_POST['depot4']) && !empty($_POST['retrait1']) && !empty($_POST['retrait2']) && !empty($_POST['retrait3']) && !empty($_POST['retrait4'])) {
             //Ici on include le fichier calcBancaire.php pour récupérer les fonctions etc
@@ -51,7 +49,6 @@
                     <td><?php echo $retrait[3] ?> €</td>
                 </tr>
             </table>
-
         <?php
             //Ici on appelle les différentes fonctions du fichier calcBancaire.php pour procéder aux vérifications.
             calcSolde($depot, $retrait);
