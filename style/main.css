@@ -1,0 +1,67 @@
+/*Police utilisée dans tout le projet*/
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/**/
+/*STYLE DU MENU PRINCIPAL*/
+#main-menu ul {
+	display: flex;
+	justify-content: space-between;
+	max-width: 100%;
+	width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+#main-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color:rgb(32, 77, 136) ;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#main-menu li a:hover {
+    background-color: #e95f1f;
+}
+/**/
+
+/*STYLE DU PARAGRAPHE HELLO WORLD*/
+h1 {
+    color: rgb(32, 77, 136);
+}
+/**/
+
+main{
+    text-align: center;
+}
+
+main #form-exo4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+
+#form-exo4 input {
+	margin: 15px 0 15px 0;
+    height: 30px;
+}
+
+/*Tableau bancaire*/
+#tabBancaire {
+	width: 50%;
+	margin: 15px auto;
+
+}
+
+#tabBancaire thead {
+	height: 50px;
+}
+
+#tabBancaire, tr, td{
+    border: 1px solid black;
+
+}
