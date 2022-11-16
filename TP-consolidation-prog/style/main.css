@@ -1,0 +1,57 @@
+/*Police utilisée dans tout le projet*/
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/**/
+/*STYLE DU MENU PRINCIPAL*/
+#main-menu ul {
+	display: flex;
+	justify-content: space-between;
+	max-width: 100%;
+	width: 100%;
+    padding: 30px;
+    list-style: none;
+}
+
+#main-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color:rgb(32, 77, 136) ;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#main-menu li a:hover {
+    background-color: #e95f1f;
+}
+/**/
+
+h1 {
+    color: rgb(32, 77, 136);
+}
+/**/
+
+main{
+    text-align: center;
+}
+.wrapper-card, .wrapper-card a {
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper-img{
+    border-radius: 100%;
+    width: 20vw;
+    height: 20vh;
+}
+
+.wrapper-img img {
+	position: relative;
+	max-width: 100%;
+    max-height: 100%;
+    border-radius: 100%;
+}

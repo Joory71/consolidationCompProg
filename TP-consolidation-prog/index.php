@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Accueil du site regroupant les différents exercice du module de consolidation prog IT-Akademy">
     <link rel="stylesheet" href="/style/main.css">
-    <title>Accueil cours de dev IT-Akademy</title>
+    <title>Accueil - TP Consolidation programmation</title>
 </head>
 
 <body>
     <?php
-    include 'modules/menu.php';
+    include 'views/partials/menu.php';
     ?>
     <main>
         <h1>Page d'accueil</h1>
