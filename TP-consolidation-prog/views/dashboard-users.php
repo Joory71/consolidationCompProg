@@ -19,9 +19,10 @@
     <main>
         <h1>Dashboard utilisateurs</h1>
         <div class="container">
-            <div class="row">
                 <?php
+                echo '<div class="row">';
                 include('../controllers/card-users.php');
+                echo '</div>';
                 ?>
             </div>
         </div>

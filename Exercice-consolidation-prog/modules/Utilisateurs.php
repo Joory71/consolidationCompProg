@@ -15,7 +15,7 @@ class Utilisateur {
             echo nl2br("Bonjour " . $this->nom . "\n Vous êtes membre du site");
         }else if($this->role == "gestionnaire"){
             echo nl2br("Bonjour " . $this->nom . "\n Vous êtes gestionnaire du site");
-        }else if($this->role == "autre"){
+        }else /*if($this->role == "autre")*/{
             echo nl2br("Bonjour " . $this->nom . "\n Vous êtes invité sur ce site");
         }
     }

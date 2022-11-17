@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="Page présentant les différents utilisateurs sous forme de 'carte résumé'">
     <?php include('../views/partials/cdn.php');
     ?>
@@ -19,11 +19,13 @@
     <main>
         <h1>Dashboard Cours</h1>
         <div class="container">
-            <div class="row">
+
                 <?php
+                echo '<div class="row">';
                 include('../controllers/card-cours.php');
+                echo '</div>';
                 ?>
-            </div>
+
         </div>
     </main>
 </body>

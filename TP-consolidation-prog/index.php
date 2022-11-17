@@ -16,7 +16,7 @@
     ?>
     <main>
         <h1>Page d'accueil</h1>
-        <p>Vous êtes sur la page d'accueil, veuillez cliquer sur un lien dans le menu en haut de page pour sélectionner un exercice</p>
+        <p>Vous êtes sur la page d'accueil, veuillez cliquer sur un lien dans le menu en haut de page pour accéder aux différentes sections du site</p>
     </main>
 </body>
 

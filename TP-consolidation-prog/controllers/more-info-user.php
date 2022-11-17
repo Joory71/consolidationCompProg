@@ -9,7 +9,6 @@ $req->execute();
 
 $result=$req->fetchAll();
 foreach ($result as $row => $a) {
-
     $nom = $a['nom'];
     $prenom = $a['prenom'];
     $role = $a['role'];

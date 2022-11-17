@@ -8,5 +8,8 @@
         <li><a href="../exos/exercice5.php">Exo 5</a></li>
         <li><a href="../exos/exercice6.php">Exo 6</a></li>
         <li><a href="../exos/exercice7.php">Exo 7</a></li>
+        <li><a href="../exos/exercice8.php">Exo 8</a></li>
+        <li><a href="../exos/exercice9.php">Exo 9</a></li>
+        <li><a href="../exos/exercice10.php">Exo 10</a></li>
     </ul>
 </nav>
