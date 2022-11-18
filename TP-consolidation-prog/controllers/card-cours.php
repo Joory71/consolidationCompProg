@@ -1,4 +1,5 @@
 <?php
+//Je récupère ici la connection à la bdd
 include('../models/bdd.php');
 //Variable pour définir le nombre max de "cartes" par ligne
 $maxLigne = 3;

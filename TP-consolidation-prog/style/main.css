@@ -35,6 +35,7 @@ h1 {
 main{
     text-align: center;
 }
+/*Style des "cartes" sur les pages dashboard et les sous pages avec plus de détail.*/
 .wrapper-card, .wrapper-card a {
 	margin: auto;
 	text-align: center;
@@ -56,9 +57,6 @@ main{
     border: 3px solid rgb(18, 53, 99);
 }
 
-/*.wrapper-card:nth-child(3){
-    margin: 15px;
-}*/
 .wrapper-card:hover{
     box-shadow: 10px 5px 35px #4784d3;
     transition: 0.3s;
@@ -77,3 +75,5 @@ main{
     max-height: 100%;
     border-radius: 100%;
 }
+
+/**/

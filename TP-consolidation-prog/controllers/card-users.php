@@ -1,4 +1,5 @@
 <?php
+//Je récupère ici la connection à la bdd
 include('../models/bdd.php');
 
 $maxLigne = 3;

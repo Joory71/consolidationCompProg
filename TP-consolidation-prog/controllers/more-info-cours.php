@@ -1,4 +1,5 @@
 <?php
+//Je récupère ici la connection à la bdd
 include('../../models/bdd.php');
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $idCours= substr( $actual_link, -5, 1);
@@ -9,7 +10,7 @@ $req->execute();
 
 $result=$req->fetchAll();
 foreach ($result as $row => $a) {
-
+//Je stock les valeurs dans de nouvelles variables pour plus de facilité d'intégration derrière
     $code = $a['code'];
     $nomCours = $a['nomCours'];
     $trigramme = $a['trigramme'];
@@ -17,4 +18,3 @@ foreach ($result as $row => $a) {
 
 }
 $bdd = null;
-?>

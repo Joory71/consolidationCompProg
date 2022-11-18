@@ -14,12 +14,6 @@ class Livre {
          $this->editeur = $aEditeur;
          $this->genre = $aGenre;
     }
-    /*public function __construct($id, $titre, $editeur, $genre){
-        $this->id = $id;
-        $this->titre = $titre;
-        $this->editeur = $editeur;
-        $this->genre = $genre;
-    }*/
 
     //Fonction getter pour afficher toutes les infos concernant le livre
     public function getInfoLivre(){
